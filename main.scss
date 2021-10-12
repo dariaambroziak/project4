@@ -8,7 +8,7 @@ $primaryLight: #FC6C6D;
 
 .lp-hama-r {
   @media (max-width: 1349px) {
-    margin: 0 -8px;
+    margin: 0 -8px -15px;
   }
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
   font-family: 'Roboto', sans-serif;
@@ -520,11 +520,11 @@ $primaryLight: #FC6C6D;
     }
   }
   .photo-3 {
-    background-image: url(images/lp-hama-r/1350-radia/4.png);
+    background-image: url(images/lp-hama-r/1350-radia/radio.png);
     background-size: cover;
     background-position: center;
     @media (max-width: 576px) {
-      background-image: url(images/lp-hama-r/320-radia/4.png);
+      background-image: url(images/lp-hama-r/320-radia/radio.png);
       background-size: cover;
       background-position: bottom right;
     }
@@ -844,7 +844,7 @@ $primaryLight: #FC6C6D;
       }
     }
     &-title {
-      font-size: 2.2vw;
+      font-size: 1.8vw;
       font-weight: 400;
       @media (max-width: 767px) {
         font-size: 12px;
